@@ -1,0 +1,43 @@
+body {background-color: #f0ffff}
+table {
+	font-family: verdana;
+	border-collapse: collapse;
+	width: 50%;
+}
+th,td {
+	border: 1px solid black;
+	text-align: left;
+	padding: 5px;
+}
+tr:nth-child(odd) {
+	background-color: #ffebcd
+}
+div > p {
+	font-family: verdana;
+	text-align: justify;
+	width: 50%;
+}
+h1 {
+	position: sticky;
+	font-family: georgia;
+	color: #b0c4de;
+	background-color: #ffebcd;
+	margin: 5px 50px 75px 100px;
+}
+h2 {
+	position: center;
+	font-family: copperplate;
+	color: #ffa07a;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.sticky {
+	position: sticky;
+	top: 0;
+	background-color: #ffebcd
+	text-align: center;
+}
