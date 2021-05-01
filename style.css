@@ -17,7 +17,7 @@ tr:nth-child(odd) {
 div > p {
 	font-family: verdana;
 	text-align: justify;
-	margin: 10px 300px 10px 250px;
+	margin: 10px 250px 10px 250px;
 }
 h1 {
 	position: sticky;
