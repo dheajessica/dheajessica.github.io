@@ -1,5 +1,5 @@
 body {
-	background-image: url(background.jpg);
+	background-image: "background.jpg";
 }
 table {
 	font-family: verdana;
