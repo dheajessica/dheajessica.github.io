@@ -36,8 +36,8 @@ h2 {
 	margin-bottom: 15px;
 }
 .sticky {
+	text-align: center;
 	position: sticky;
 	top: 0;
 	background-color: #ffebcd
-	text-align: center;
 }
