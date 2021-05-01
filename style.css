@@ -1,6 +1,4 @@
-body {
-	background: url(background.jpg);
-}
+body {background: url(background.jpg)}
 table {
 	font-family: verdana;
 	border-collapse: collapse;
