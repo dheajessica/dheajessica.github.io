@@ -1,5 +1,70 @@
 body {
-	background: url(background.jpg);
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: fixed;
+	height: 770;
+	text-align: center
+}
+.jumbotron {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: fixed;
+	height: 655px;
+	text-align: center;
+}
+.jumbotron .display-4 {
+	font-color: black;
+	font-family: monospace
+}
+.jumbotron p {
+	color: black;
+	font-size: 30px;
+	font-family: monospace
+}
+.jumbotron .btn {
+	background-color: #6e7582;
+	border-color: white;
+	border-radius: 25px;
+	margin-top: 20px
+}
+.icon-bar a {
+	display: block;
+  	text-align: center;
+  	padding: 16px;
+  	transition: all 0.3s ease;
+  	color: white;
+  	font-size: 20px;
+}
+
+.whatsapp {
+  	background: #54e346;
+  	color: white
+}
+
+.telegram {
+	background: #77acf1;
+	color: white
+}
+
+.line {
+	background: #54e346;
+	color: white
+}
+
+.instagram {
+  	background:#b30086;
+ 	color: white
+}
+
+.youtube {
+  	background:#ff0000;
+  	color: white
+}
+h2 {
+	position: center;
+	text-overflow: center;
+	font-family: copperplate;
+	color: #0a81ab;
 }
 table {
 	font-family: verdana;
@@ -11,25 +76,8 @@ th,td {
 	text-align: left;
 	padding: 5px;
 }
-tr:nth-child(odd) {
-	background-color: #ffebcd
-}
-div > p {
-	font-family: verdana;
-	text-align: justify;
-	margin: 10px 250px 10px 250px;
-}
-h1 {
-	position: sticky;
-	font-family: georgia;
-	color: #b0c4de;
-	background-color: #ffebcd;
-	text-align: center;
-}
-h2 {
-	position: center;
-	font-family: copperplate;
-	color: #ffa07a;
+tr {
+	background-color: #ffd8cc
 }
 .center {
 	display: flex;
@@ -37,9 +85,87 @@ h2 {
 	align-items: center;
 	margin-bottom: 15px;
 }
-.sticky {
+.col-lg-12 {
+	background-color: #ffd8cc
+}
+.col-lg-12 h1{
+	color: #867ae9;
+	margin-top: 80px;
+	font-family: georgia
+}
+.col-lg-12 h2 {
+	color: #c449c2;
+	margin-top: 30px;
+	font-family: georgia
+}
+.col-lg-12 p {
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: black
+}
+.fav{
+	width: 80%;
+	margin: auto;
 	text-align: center;
-	position: sticky;
+	padding-top: 50px;
+	font-size: 20px
+}
+h1 {
+	font-family: monospace;
+	color: white
+}
+p {
+	font-family: georgia;
+	color: #ffd8cc
+}
+
+.fav ul li{
+	display: inline-block;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.favo{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom : 30px;
+	position: relative;
+	overflow: hidden;
+}
+.favo img {
+	width: 100%;
+	display: block;
+}
+.layer{
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 	top: 0;
-	background-color: #ffebcd
+	left: 0;
+	transition: 0.5s;
+}
+.layer:hover{
+	background: rgba(102, 0, 0,0.7);
+}
+
+.layer h3{
+	width: 100%;
+	color: #fff;
+	font-weight: 300;
+	font-size: 20px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s
+}
+.layer:hover h3{
+	bottom: 49%;
+	opacity: 1;
 }
